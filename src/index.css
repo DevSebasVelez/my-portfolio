@@ -25,8 +25,7 @@
 .custom-color {
   color: #FF4D92;
 }
-.gradient,
-.active {
+.gradient {
   background: linear-gradient(
     92.23deg,
     #406aff 21.43%,
@@ -42,6 +41,67 @@
   border-radius: 100%;
   height: min-content;
   margin-top: 19px;
+}
+
+.menu-link {
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.menu-link::before {
+  content: '';
+  position: absolute;
+  left: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.menu-link:hover::before,
+.menu-link.active::before {
+  opacity: 1;
+}
+
+.decoration a span::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  margin-top: 2px;
+  transform-origin: 50% 50%;
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+.decoration a:hover span::after {
+  width: 100%;
+}
+
+@keyframes custom-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.duration-custom-spin {
+  animation: custom-spin 3s linear infinite; /* Ajusta la duración según tus preferencias */
+}
+
+.custom-stroke {
+  stroke-width: .5;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .menu-link::before {
+    top: 44%;
+  }
 }
 
 @media (min-width: 960px) {
