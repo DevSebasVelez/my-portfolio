@@ -34,7 +34,7 @@ export const MobileMenu = ({ open, setOpen }) => {
               smooth={true}
               activeClass="active"
               spy={true}
-              offset={0}
+              offset={-40}
               className='cursor-pointer menu-link'
               onClick={() => handleMenuClick()}
             >
@@ -47,7 +47,7 @@ export const MobileMenu = ({ open, setOpen }) => {
               to="services"
               smooth={true}
               spy={true}
-              offset={0}
+              offset={-40}
               onClick={() => handleMenuClick()}
               activeClass="active"
               className='cursor-pointer menu-link'

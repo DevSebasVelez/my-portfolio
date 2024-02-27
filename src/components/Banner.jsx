@@ -16,7 +16,7 @@ export const Banner = () => {
                 variants={fadeIn('up', 0.3)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once: false, amount:0.7}}
+                viewport={{once: true, amount:0.7}}
                 className="text-[56px] font-extrabold sm:font-normal leading-[0.8] lg:text-[70px]"
                 >
               SEBASTIAN VELEZ
@@ -26,7 +26,7 @@ export const Banner = () => {
                 variants={fadeIn('up', 0.3)}
                 initial="hidden"
                 whileInView={"show"}
-                viewport={{once: false, amount:0.7}}
+                viewport={{once: true, amount:0.7}}
                 className="text-[36px] font-primary lg:font-semibold uppercase leading-[1] us:text-[30px] lg:text-[60px] mt-8 lg:mt-0"
               >
                 <span className="text-white mr-4">I am a</span>
@@ -47,7 +47,7 @@ export const Banner = () => {
                   variants={fadeIn('up', 0.3)}
                   initial="hidden"
                   whileInView={"show"}
-                  viewport={{once: false, amount:0.7}}
+                  viewport={{once: true, amount:0.7}}
                   className="mb-3 hidden lg:flex font-secondary">SOFTWARE ENGINEER, FRONT END & APP DEVELOPER
                 </motion.p>
 
@@ -70,7 +70,8 @@ export const Banner = () => {
                   className="flex justify-center items-center gap-2 mt-10 lg:mt-0 lg:justify-start"
                 >
                   <GlobeAltIcon
-                    className=" h-10 w-10 custom-stroke duration-custom-spin" />
+                    className=" h-9 w-9 custom-stroke duration-custom-spin text-gray-400"
+                  />
                     <span className="text-sm text-gray-400">Located in Ecuador</span>
                 </motion.div>
 

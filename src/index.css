@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .btn {
   background: linear-gradient(
     92.23deg,
@@ -90,7 +91,7 @@
 }
 
 .duration-custom-spin {
-  animation: custom-spin 3s linear infinite; /* Ajusta la duración según tus preferencias */
+  animation: custom-spin 8s linear infinite; /* Ajusta la duración según tus preferencias */
 }
 
 .custom-stroke {
@@ -121,7 +122,46 @@
 }
 
 .bg-custom {
-  background-color: #131A24;
+  background-color: #000000;
+}
+/* .swiper {
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 35%;
+  margin-left: -150px;
+  margin-top: -150px;
+
+}
+@media (max-width: 360px) {
+  .swiper {
+    top: 15rem;
+    height: 350px;
+  }
+} */
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+}
+
+
+.border-custom {
+  border-color: linear-gradient(to right, red, purple);
+}
+
+
+
+.opacity-gradient {
+  mask-image: linear-gradient(to top, black, transparent 80%);
+  -webkit-mask-image: linear-gradient(to top, black, transparent 70%);
 }
 
 
