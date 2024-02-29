@@ -8,9 +8,9 @@ import { GlobeAltIcon } from "@heroicons/react/24/outline";
 export const Banner = () => {
   return (
 
-    <div className="h-[37rem] md:h-[30rem] w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative ">
+    <div className="h-[37rem] md:h-[30rem] w-full bg-black bg-dot-white/[0.2]  relative ">
       {/* Radial gradient for the container to give a faded look */}
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]">
+      <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]">
       </div>
       <section id="home" className="min-h-[70vh] lg:min-h-[78vh] flex items-center">
         <div className="container mx-auto">
