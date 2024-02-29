@@ -17,7 +17,7 @@ import {EffectCoverflow, Pagination} from 'swiper/modules';
 
 export const Services = () => {
   return (
-    <section id="services" className="my-20">
+    <section id="services" className="my-28">
       <div className="flex justify-center pb-6 text-[56px] font-extrabold sm:font-normal leading-[0.8] lg:text-[70px]">
         <motion.h1
           variants={fadeIn('up', 0.3)}
