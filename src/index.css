@@ -5,7 +5,7 @@
 
 .btn {
   background: linear-gradient(
-    92.23deg,
+    9.23deg,
     #406aff 21.43%,
     #b936ee 100%,
     #3bace2 50.63%,
@@ -14,12 +14,19 @@
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
+.btn-2 {
+  background-color: #fff;
+  color: #000000;
+  border-radius: 1.5rem;
+  padding: 0.8rem 1.5rem;
+}
+
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
+    #406aff 11.43%,
     #7c02ad 100%,
+    #3bace2 50.63%,
     #FF4D92 117.04%
   );
 }
