@@ -1,4 +1,4 @@
-import Image from "../../public/assets/avatar.svg";
+import Image from "../../public/assets/avatar2.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";

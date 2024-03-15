@@ -171,6 +171,12 @@
   -webkit-mask-image: linear-gradient(to top, black, transparent 70%);
 }
 
+input:focus,
+textarea:focus {
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño cuando se enfoca */
+}
+
+
 
 @layer base {
   body {

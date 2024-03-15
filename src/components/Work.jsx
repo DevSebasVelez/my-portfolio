@@ -67,7 +67,7 @@ export const Work = () => {
                 <span className='text-[16px] sm:text-[20px] text-gray-400'>Diana C.</span>
               </div>
               <div className='absolute -bottom-full sm:right-12 sm:group-hover:bottom-16 right-8 group-hover:bottom-14 transition-all duration-300 z-30'>
-                <a className='btn-2 text-sm' href='https://myxxfest.com' target="_blank" rel="noopener noreferrer">Visit Site</a>
+                <a className='btn-2 text-sm' href='https://www.dianacano.mx/' target="_blank" rel="noopener noreferrer">Visit Site</a>
               </div>
             </div>
           </div>
