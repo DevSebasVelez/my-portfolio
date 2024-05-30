@@ -94,17 +94,17 @@ export const MobileMenu = ({ open, setOpen }) => {
             <h5 className="text-sm text-gray-400 mb-1">Socials</h5>
             <ul className="flex gap-4 text-sm">
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/devsebasvelez/" target="_blank" rel="noreferrer">
                   <span>LinkedIn</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://github.com/DevSebasVelez" target="_blank" rel="noreferrer">
                   <span>GitHub</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/sebas.velezmx/" target="_blank" rel="noreferrer">
                   <span>Instagram</span>
                 </a>
               </li>
